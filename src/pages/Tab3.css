@@ -1,0 +1,20 @@
+ .Dthumb{   
+
+    align-items: center;
+    align-content: center;
+    min-width:30px;
+    min-height:30px;
+    max-width: 36px;
+    max-height: 36px;
+ }
+ .Dthumb img{
+ 
+   margin-top: 50% !important;
+    width:auto !important;
+    height:auto !important;
+    justify-content: center;
+ }
+ .divmain3{
+     display: flex;
+     width: 100%;
+ }

@@ -1,0 +1,91 @@
+ 
+ion-header::after {
+    background-image: none;
+}
+ion-title{
+    padding-top: 4%;
+   
+}
+ion-searchbar{
+    font-size: small !important;
+    transform: scale(.8);
+    
+    padding-top: 0% !important;
+    padding-bottom: 0% !important;
+    margin-top: 0% !important;
+    margin-bottom: 0% !important;
+    
+}
+ion-thumbnail{
+    margin-bottom:5% !important;
+    margin-left: 0% !important;
+    margin-right: 0% !important;
+    padding-left: 0% !important;
+    padding-right: 0% !important;
+    size: large;
+    min-width: 44px;
+}
+:root ion-list ion-item{
+    
+    --padding-bottom:0px !important;
+    --inner-padding-bottom: 0px !important;
+}
+:root ion-list ion-item ion-label h4{
+    font-weight: bold   !important;
+}
+
+.centerme {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self:center;
+    text-align: center;
+}
+h5{
+    margin: 0px;
+}
+.iconsize1{
+    width:100%;
+}
+.itemtitle{
+   
+    margin-top: 1% !important;
+    margin-left: 5% !important;
+    min-width: 1rem !important;
+    font-size: 90% !important;
+}
+.divmain{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+
+.divleft{
+    width: 100%;
+    display: flex;
+
+    align-self:left;
+}
+.buttonside{
+    
+    width: 10%;
+    position: absolute;
+    top: 0%;
+    right:8%;
+    height: 80%;
+    max-width: 30px;
+}
+.linkto{
+    height: 50%;
+    width: 100%;
+}
+
+#text_precio{
+    font-size: 90%;
+
+}
+
+
+
+
