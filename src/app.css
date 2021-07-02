@@ -1,0 +1,131 @@
+.centered {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-items: center;
+}
+
+.purple {
+    background:#ff6262;
+    color:#413d56;
+}
+ion-searchbar ion-icon {
+    right: 16px !important;
+    left: auto !important;
+}
+ion-card{
+    width:90%;
+    height:90%;
+}
+ion-col{
+    width:100%;
+    height:10%;
+}
+ion-chip{
+    width:50%;
+}
+ion-col,ion-row{
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+}
+ion-content,ion-grid{
+    padding-top: 0%;
+}
+
+ion-button{
+    width : 40px;
+}
+ion-fab-button, ion-tab-bar{
+    --box-shadow:none !important;
+
+}
+.noshadow::after{
+    background-image: none;
+}
+ion-tab-bar,ion-tab-bar::after{
+    --border:none !important;
+    --background: none !important;
+}
+ion-fab-button ion-icon{
+    width: 60%;
+}
+
+.searchbar-input {
+    background: #FFF !important;
+    border-radius: 30px !important;
+    height: 40px !important;
+    max-width: 400px;
+    border: 1px solid transparent;
+}
+.titlewrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+/* SHOWROOM LOGO CONTAINER*/    
+.singlediv{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100%;
+    width: 100%;
+    min-width: 6rem;
+    max-width: 12rem;
+   
+}
+.singlediv2{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin-left: 1%;
+    margin-right: 1%;
+    height: 100%;
+    width: 80%;
+    min-width: 6rem;
+    max-width: 12rem;
+   
+}
+.singledivbottom{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+        height: 100%;
+        width: 100%;
+}
+.rightdiv{
+    text-align: right;
+    display:block;
+    
+}
+.nomargin{
+    margin: 0%;
+}
+.leftdiv{
+    text-align: left;
+    display:block;
+}
+.footerwrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-right: 4%;
+
+}
+.iconsize1{
+    width:100%;
+}
+ion-tab-bar{
+  background: #ffffff;
+  width: 95%;
+  border: none;
+  border-radius: 7px 7px;
+  margin: 0 auto 8px;
+  box-shadow: 0 0 20px 0 #dcdcdc;
+}
